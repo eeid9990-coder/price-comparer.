@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <button id="language-toggle" onclick="toggleLanguage()">تغيير اللغة</button>
+        <button id="dark-mode-toggle" onclick="toggleTheme()">الوضع الليلي</button>
+    </header>
+
     <h1>تسجيل الدخول</h1>
 
     <form id="login-form">
@@ -14,6 +19,8 @@
         <input type="password" id="login-password" placeholder="كلمة المرور" required>
         <button type="submit">تسجيل الدخول</button>
     </form>
+
+    <p>ليس لديك حساب؟ <a href="signup.html">إنشاء حساب جديد</a></p>
 
     <script src="script.js"></script>
 </body>
